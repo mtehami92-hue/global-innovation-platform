@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>🌍 المنصة العالمية للابتكار | Global Innovation Platform</title>
+  <meta name="description" content="منصة عالمية للابتكار تمكّن المبتكرين من حماية أفكارهم وتطويرها — ثنائي اللغة AR/EN." />
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <!-- Tailwind via CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    /* Smooth scroll for hash navigation */
+    html { scroll-behavior: smooth; }
+    /* Glass card */
+    .glass { background: rgba(255,255,255,0.75); backdrop-filter: blur(8px); }
+  </style>
+</head>
+<body class="bg-gradient-to-br from-indigo-50 via-white to-emerald-50 text-slate-800">
+  <!-- Header / Nav -->
+  <header class="sticky top-0 z-40 border-b border-slate-200 glass">
+    <div class="max-w-7xl mx-auto px-4 py-3 flex items-center justify-between gap-4">
+      <a href="#home" class="flex items-center gap-2">
+        <img src="assets/logo.svg" alt="Logo" class="w-8 h-8">
+        <span class="font-bold" data-i18n="brand">المنصة العالمية للابتكار</span>
+      </a>
+      <nav class="hidden md:flex items-center gap-2 text-sm">
+        <a class="px-3 py-2 rounded-xl hover:bg-white/60" href="#home" data-i18n="nav.home">الرئيسية</a>
+        <a class="px-3 py-2 rounded-xl hover:bg-white/60" href="#about" data-i18n="nav.about">عن المنصة</a>
+        <a class="px-3 py-2 rounded-xl hover:bg-white/60" href="#fast" data-i18n="nav.fast">المسار الثوري</a>
+        <a class="px-3 py-2 rounded-xl hover:bg-white/60" href="#ai" data-i18n="nav.ai">المساعد الذكي</a>
+        <a class="px-3 py-2 rounded-xl hover:bg-white/60" href="#modeling" data-i18n="nav.modeling">النمذجة</a>
+        <a class="px-3 py-2 rounded-xl hover:bg-white/60" href="#universities" data-i18n="nav.universities">الجامعات</a>
+        <a class="px-3 py-2 rounded-xl hover:bg-white/60" href="#register" data-i18n="nav.register">التسجيل</a>
+        <a class="px-3 py-2 rounded-xl hover:bg-white/60" href="#contact" data-i18n="nav.contact">تواصل</a>
+      </nav>
+      <div class="flex items-center gap-2">
+        <button id="langToggle" class="rounded-xl border px-3 py-2 text-sm bg-white hover:bg-slate-50">EN</button>
+        <a href="#register" class="rounded-xl px-4 py-2 text-sm font-semibold text-white bg-indigo-600 hover:bg-indigo-700 shadow" data-i18n="ctaRegister">سجّل ابتكارك</a>
+      </div>
+    </div>
+    <div class="md:hidden px-4 pb-2 flex flex-wrap gap-2 text-sm">
+      <a href="#home" class="underline" data-i18n="nav.home">الرئيسية</a>
+      <a href="#about" class="underline" data-i18n="nav.about">عن المنصة</a>
+      <a href="#fast" class="underline" data-i18n="nav.fast">المسار الثوري</a>
+      <a href="#ai" class="underline" data-i18n="nav.ai">المساعد الذكي</a>
+      <a href="#modeling" class="underline" data-i18n="nav.modeling">النمذجة</a>
+      <a href="#universities" class="underline" data-i18n="nav.universities">الجامعات</a>
+      <a href="#register" class="underline" data-i18n="nav.register">التسجيل</a>
+      <a href="#contact" class="underline" data-i18n="nav.contact">تواصل</a>
+    </div>
+  </header>
+
+  <main class="max-w-7xl mx-auto px-4">
+    <!-- HERO -->
+    <section id="home" class="py-16 md:py-24">
+      <div class="grid md:grid-cols-2 gap-8 items-center">
+        <div>
+          <h1 class="text-3xl md:text-5xl font-extrabold leading-tight" data-i18n="hero.title">المنصة العالمية للابتكار</h1>
+          <p class="mt-4 text-lg text-slate-600" data-i18n="hero.subtitle">
+            منظومة إنسانية موحدة لحماية وتحليل وتسريع الابتكارات — خصوصًا في البيئات المحرومة.
+          </p>
+          <div class="mt-6 flex flex-wrap gap-3">
+            <a href="#register" class="px-5 py-3 rounded-2xl bg-emerald-600 text-white font-semibold shadow hover:bg-emerald-700" data-i18n="ctaRegister">سجّل ابتكارك</a>
+            <a href="#about" class="px-5 py-3 rounded-2xl border bg-white hover:bg-slate-50" data-i18n="ctaGetStarted">ابدأ الآن</a>
+          </div>
+          <div class="mt-8 flex flex-wrap gap-2 text-sm">
+            <span class="inline-flex items-center rounded-full border px-3 py-1 backdrop-blur bg-white/50 border-white/40">🔐 TLS • AES‑256</span>
+            <span class="inline-flex items-center rounded-full border px-3 py-1 backdrop-blur bg-white/50 border-white/40">⏱️ Timestamped Certificates</span>
+            <span class="inline-flex items-center rounded-full border px-3 py-1 backdrop-blur bg-white/50 border-white/40">🤝 WIPO Collaboration (vision)</span>
+          </div>
+        </div>
+        <div class="glass rounded-2xl shadow-lg p-6">
+          <div class="aspect-video rounded-xl bg-gradient-to-br from-indigo-100 to-emerald-100 flex items-center justify-center text-center p-6">
+            <div>
+              <div class="text-6xl mb-4">🤖⚖️</div>
+              <p class="text-slate-700 font-medium" data-i18n="tagline">لا يجب أن تضيع فكرة قادرة على تغيير العالم بسبب الفقر أو الجغرافيا.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="py-16 md:py-24">
+      <h2 class="text-2xl md:text-3xl font-bold mb-4" data-i18n="about.title">لماذا هذه المنصة؟</h2>
+      <div class="grid md:grid-cols-2 gap-6">
+        <div class="glass rounded-2xl shadow p-6" data-i18n="about.p1">
+          في دول نامية أو مناطق نزاع، يصبح إيداع البراءة معقدًا ومكلفًا. نوفر مسارًا بسيطًا وآمنًا لتسجيل فكرتك وإثبات ملكيتها والوصول إلى دعم عالمي.
+        </div>
+        <div class="glass rounded-2xl shadow p-6" data-i18n="about.p2">
+          نسعى للتعاون مع المنظمة العالمية للملكية الفكرية WIPO لبناء ختم زمني وشهادة معترف بها قضائيًا دوليًا.
+        </div>
+      </div>
+    </section>
+
+    <!-- FAST TRACK -->
+    <section id="fast" class="py-16 md:py-24">
+      <div class="flex items-center justify-between gap-4 mb-6">
+        <h2 class="text-2xl md:text-3xl font-bold" data-i18n="fast.title">المسار الثوري السريع</h2>
+        <div class="flex flex-wrap gap-2 text-sm">
+          <span class="inline-flex items-center rounded-full border px-3 py-1 bg-white/60">المناخ والطاقة</span>
+          <span class="inline-flex items-center rounded-full border px-3 py-1 bg-white/60">الصحة والأوبئة</span>
+          <span class="inline-flex items-center rounded-full border px-3 py-1 bg-white/60">الإغاثة الإنسانية</span>
+          <span class="inline-flex items-center rounded-full border px-3 py-1 bg-white/60">الأمن الغذائي والمائي</span>
+        </div>
+      </div>
+      <div class="grid md:grid-cols-2 gap-6">
+        <div class="glass rounded-2xl shadow p-6">
+          <p class="text-slate-700 mb-4" data-i18n="fast.desc">مسار خاص للاكتشافات الثورية التي تعالج تحديات إنسانية عاجلة.</p>
+          <ul class="list-disc ps-6 space-y-2" id="fastBullets">
+            <li>مراجعة خبراء عاجلة</li>
+            <li>تمويل طارئ أولي</li>
+            <li>أرصدة محاكاة ونمذجة</li>
+            <li>تسريع الحماية الدولية</li>
+          </ul>
+        </div>
+        <div class="glass rounded-2xl shadow p-6">
+          <div class="aspect-video rounded-xl bg-gradient-to-r from-emerald-100 to-indigo-100 flex items-center justify-center font-semibold">
+            ⚡ Fast triage • 🔬 Prototype • 🛡️ Protect • 🌐 Deploy
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- AI ASSISTANT -->
+    <section id="ai" class="py-16 md:py-24">
+      <h2 class="text-2xl md:text-3xl font-bold mb-4" data-i18n="ai.title">مساعد ذكاء اصطناعي متكامل</h2>
+      <div class="grid md:grid-cols-3 gap-6">
+        <div class="glass rounded-2xl shadow p-6 md:col-span-2">
+          <p class="mb-3" data-i18n="ai.p1">تحقق من الأصالة عبر قواعد المعرفة العالمية، وحدد الميزات التنافسية، وأنشئ خارطة طريق للتطوير.</p>
+          <p class="text-slate-600" data-i18n="ai.p2">بياناتك تحت سيطرتك: تشفير، وخصوصية بشكل افتراضي.</p>
+        </div>
+        <div class="glass rounded-2xl shadow p-6 space-y-3 text-sm">
+          <span class="inline-flex items-center rounded-full border px-3 py-1 bg-white/60">🔎 Prior-art Scan</span>
+          <span class="inline-flex items-center rounded-full border px-3 py-1 bg-white/60">🧭 Roadmap</span>
+          <span class="inline-flex items-center rounded-full border px-3 py-1 bg-white/60">📊 Competitive Edges</span>
+          <span class="inline-flex items-center rounded-full border px-3 py-1 bg-white/60">🔒 Privacy-first</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- MODELING -->
+    <section id="modeling" class="py-16 md:py-24">
+      <h2 class="text-2xl md:text-3xl font-bold mb-6" data-i18n="modeling.title">نمذجة ومحاكاة مجانية</h2>
+      <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div class="glass rounded-2xl shadow p-6"><div class="text-lg font-semibold" data-i18n="modeling.items.0.t">نمذجة ثلاثية الأبعاد</div><p class="text-slate-600 text-sm" data-i18n="modeling.items.0.d">منشئ مشاهد عبر المتصفح ومكتبة مكوّنات.</p></div>
+        <div class="glass rounded-2xl shadow p-6"><div class="text-lg font-semibold" data-i18n="modeling.items.1.t">فيزياء</div><p class="text-slate-600 text-sm" data-i18n="modeling.items.1.d">محركات فيزيائية من بسيطة إلى متقدمة للاختبارات السريعة.</p></div>
+        <div class="glass rounded-2xl shadow p-6"><div class="text-lg font-semibold" data-i18n="modeling.items.2.t">دوائر</div><p class="text-slate-600 text-sm" data-i18n="modeling.items.2.d">رسم مخططات وتشغيل محاكاة SPICE مبسّطة.</p></div>
+        <div class="glass rounded-2xl shadow p-6"><div class="text-lg font-semibold" data-i18n="modeling.items.3.t">كيمياء</div><p class="text-slate-600 text-sm" data-i18n="modeling.items.3.d">تفاعلات جزيئية أولية وموازنة تفاعلات.</p></div>
+      </div>
+    </section>
+
+    <!-- UNIVERSITIES -->
+    <section id="universities" class="py-16 md:py-24">
+      <h2 class="text-2xl md:text-3xl font-bold mb-4" data-i18n="universities.title">مسارات جامعية</h2>
+      <div class="glass rounded-2xl shadow p-6 text-slate-700" data-i18n="universities.p">
+        مطابقة مع البرامج الأكاديمية والبحثية والمنح باستخدام شهادة المنصة ومحفظة الابتكار الخاصة بك.
+      </div>
+    </section>
+
+    <!-- REGISTER -->
+    <section id="register" class="py-16 md:py-24">
+      <h2 class="text-2xl md:text-3xl font-bold mb-6" data-i18n="register.title">سجّل ابتكارك</h2>
+      <div class="glass rounded-2xl shadow p-6">
+        <form class="grid md:grid-cols-2 gap-4">
+          <div class="flex flex-col gap-1">
+            <label class="text-sm text-slate-600" data-i18n="register.name">الاسم الكامل</label>
+            <input class="border rounded-xl px-3 py-2" placeholder="الاسم الكامل" />
+          </div>
+          <div class="flex flex-col gap-1">
+            <label class="text-sm text-slate-600" data-i18n="register.email">البريد الإلكتروني</label>
+            <input type="email" class="border rounded-xl px-3 py-2" placeholder="name@example.com" />
+          </div>
+          <div class="flex flex-col gap-1">
+            <label class="text-sm text-slate-600" data-i18n="register.category">الفئة</label>
+            <select class="border rounded-xl px-3 py-2">
+              <option>Energy</option>
+              <option>Health</option>
+              <option>Water</option>
+              <option>Agriculture</option>
+              <option>Education</option>
+            </select>
+          </div>
+          <div class="md:col-span-2 flex flex-col gap-1">
+            <label class="text-sm text-slate-600" data-i18n="register.desc">وصف مختصر</label>
+            <textarea class="border rounded-xl px-3 py-2 min-h-32" placeholder="…"></textarea>
+          </div>
+          <div class="md:col-span-2 flex items-center gap-3">
+            <button type="button" class="px-5 py-3 rounded-2xl bg-indigo-600 text-white font-semibold hover:bg-indigo-700" data-i18n="register.submit">إرسال</button>
+            <span class="text-sm text-slate-500" data-i18n="register.note">هذا نموذج تجريبي ثابت. اربطه بخدمة خارجية للتشغيل الفعلي.</span>
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="py-16 md:py-24">
+      <h2 class="text-2xl md:text-3xl font-bold mb-6" data-i18n="contact.title">تواصل وشراكات</h2>
+      <div class="grid md:grid-cols-2 gap-6">
+        <div class="glass rounded-2xl shadow p-6">
+          <form class="grid gap-4">
+            <div class="flex flex-col gap-1">
+              <label class="text-sm text-slate-600" data-i18n="register.name">الاسم الكامل</label>
+              <input class="border rounded-xl px-3 py-2" placeholder="الاسم الكامل" />
+            </div>
+            <div class="flex flex-col gap-1">
+              <label class="text-sm text-slate-600" data-i18n="contact.org">المنظمات / الجامعات</label>
+              <input class="border rounded-xl px-3 py-2" placeholder="University / Organization" />
+            </div>
+            <div class="flex flex-col gap-1">
+              <label class="text-sm text-slate-600" data-i18n="contact.msg">رسالتك</label>
+              <textarea class="border rounded-xl px-3 py-2 min-h-32" placeholder="…"></textarea>
+            </div>
+            <button type="button" class="px-5 py-3 rounded-2xl bg-emerald-600 text-white font-semibold hover:bg-emerald-700" data-i18n="contact.send">إرسال</button>
+          </form>
+        </div>
+        <div class="glass rounded-2xl shadow p-6">
+          <div class="space-y-3">
+            <div class="font-semibold">Email</div>
+            <a class="underline" href="mailto:contact@innovation.org">contact@innovation.org</a>
+            <div class="font-semibold mt-4">Social</div>
+            <div class="flex gap-3 text-sm">
+              <a class="underline" href="#">X</a>
+              <a class="underline" href="#">LinkedIn</a>
+              <a class="underline" href="#">YouTube</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="mt-16 border-t border-slate-200 glass">
+    <div class="max-w-7xl mx-auto px-4 py-8 flex flex-col md:flex-row items-center justify-between gap-4 text-sm">
+      <div class="flex items-center gap-2"><span>🌱</span><span data-i18n="footer.made">بُني لدعم الابتكار الإنساني.</span></div>
+      <div class="text-slate-500">© <span id="year"></span> — <span data-i18n="footer.rights">جميع الحقوق محفوظة.</span></div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
